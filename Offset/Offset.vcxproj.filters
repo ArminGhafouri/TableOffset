@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{494f30d5-7928-475c-93bc-cefccf09efdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Bspline">
+      <UniqueIdentifier>{0163b7a8-330f-4192-b3e1-980fb3ebde75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Offset">
+      <UniqueIdentifier>{ccde5353-aa67-4f6b-943d-8181b5da75f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Tools">
+      <UniqueIdentifier>{759e0ac8-cbe6-4dbd-8dd2-385b393a6799}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Tools\Tools.cxx">
+      <Filter>Lib\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Offset\Offset.cxx">
+      <Filter>Lib\Offset</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Bspline\Bspline.cxx">
+      <Filter>Lib\Bspline</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lib\Tools\Tools.hxx">
+      <Filter>Lib\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Offset\Offset.hxx">
+      <Filter>Lib\Offset</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Bspline\Bspline.hxx">
+      <Filter>Lib\Bspline</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
